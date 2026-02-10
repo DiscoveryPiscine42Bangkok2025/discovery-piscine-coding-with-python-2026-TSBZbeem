@@ -1,0 +1,7 @@
+import sys
+if len(sys.argv) >= 3:
+    params = sys.argv[1:]
+    for param in reversed(params):
+        print(param)
+else:
+    print("none")
